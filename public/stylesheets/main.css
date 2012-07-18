@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: #efefef;
+    display: block;
+    height: 100px;
+}
+
+.main {
+    background-color: #cdcdcd;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 205px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.menu {
+    background-color: #bfbfbf;
+    float: left;
+    height: 400px;
+    width: 200px;
+}
+
+.footer {
+    clear: both;
+    background-color: #efefef;
+    display: block;
+    text-align: center;
+}
