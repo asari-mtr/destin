@@ -1,1 +1,11 @@
+@(bookItemForm:Form[String])
+
+@import helper._
+
 <h1>Sample AWS</h1>
+
+@form(routes.Application.query()){
+    @inputText(bookItemForm("query"))
+
+    <input type="submit" value="search"/>
+}

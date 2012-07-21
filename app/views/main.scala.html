@@ -1,4 +1,4 @@
-@(title: String)(content: Html)
+@(title: String, bookItemForm:Form[String])(content: Html)
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
         <script src="@routes.Assets.at("javascripts/main.min.js")" type="text/javascript"></script>
     </head>
     <body>
-        <div class="header">@header()</div>
+        <div class="header">@header(bookItemForm)</div>
         <div class="menu"></div>
         <div class="main">
         @content
