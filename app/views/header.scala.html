@@ -2,6 +2,8 @@
 
 @import helper._
 <form action="@{routes.Application.query()}" method="post" class="form-search">
-    <input type="text" class="input-medium search-query" id="query" name="query"/>
+    <div class="input-prepend">
+        <span class="add-on"><i class="icon-search"></i></span><input type="text" class="input-medium search-query" placeholder="keyword..." id="query" name="query"/>
+    </div>
     <input type="submit" class="btn" value="search"/>
 </form>
